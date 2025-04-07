@@ -1,9 +1,9 @@
 # API-INTEGRATION
-COMPANY: CODETECH IT SOLUTIONS
-NAME: Pravalika Lakkam
-INTERN ID:CT06DA407
-DOMAIN:FULL STACK DEVELOPMENT
-DURATION: 6 WEEKS
+COMPANY: CODETECH IT SOLUTIONS  
+NAME: Pravalika Lakkam  
+INTERN ID:CT06DA407  
+DOMAIN:FULL STACK DEVELOPMENT  
+DURATION: 6 WEEKS  
 MENTOR: NEELA SANTOSH
 **The Book Finder Web Application is a user-friendly tool designed to search for books using data from the Open Library API. Open Library is a vast platform that aims to create a web page for every book ever published, offering comprehensive information about books, authors, cover images, and subjects. This application allows users to search for books based on title, author, and publication year, providing detailed results such as the book's title, author(s), publication year, and cover image (if available).
 The application is built around a straightforward search interface with three input fields: title, author, and publication year. Users can enter one, two, or all three parameters to narrow down their search. For instance, if a user wants to find a book by a specific author, they can type in the author's name. If they are interested in books from a particular time period, they can search by publication year. Once the search is executed, the application sends a request to the Open Library API, which returns relevant book data in real time.
