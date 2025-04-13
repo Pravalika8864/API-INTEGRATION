@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f4d2eb;
+  text-align: center;
+}
+
+h1{
+  color:#371282
+}
+input, select {
+  padding: 10px;
+  margin: 5px;
+  width: 220px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.note {
+  font-size: 14px;
+  color: #e72d2d;
+  margin-bottom: 15px;
+}
+
+.results {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.book {
+  background: #f7f5f5;
+  border: 1px solid #f1d4e2;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px;
+  width: 200px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.book img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.book-title {
+  font-weight: bold;
+}
+
+.author {
+  color: #821212;
+  font-size: 14px;
+}
