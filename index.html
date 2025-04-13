@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title> Book Finder From </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Book Finder From Open Library</h1>
+
+  <!-- Input fields -->
+  <input type="text" id="titleInput" placeholder="Book Title" />
+  <input type="text" id="authorInput" placeholder="Author Name" />
+  <input type="number" id="yearInput" placeholder="Published Year" />
+  
+  <!-- Sorting dropdown -->
+  <select id="sortOrder">
+    <option value="">Sort By (optional)</option>
+    <option value="newest">Newest First</option>
+    <option value="oldest">Oldest First</option>
+  </select>
+
+  <!-- Help message -->
+  <div class="note">You can fill one or more fields to search and choose how to sort results.</div>
+
+  <button onclick="searchBooks()">Search</button>
+
+  <!-- Where results will appear -->
+  <div class="results" id="results"></div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
